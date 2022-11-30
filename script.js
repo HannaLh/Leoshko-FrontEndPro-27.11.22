@@ -1,7 +1,7 @@
 let numOrStr = prompt('input number or string');
 console.log(numOrStr)
 
-switch(Boolean(numOrStr) || numOrStr) {     //або switch(!!numOrStr  numOrStr)
+switch(Boolean(numOrStr) || numOrStr) {     //або switch(!!numOrStr || numOrStr)
     case null:
         console.log('ви скасували');
         break;
